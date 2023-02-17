@@ -22,12 +22,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera Branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qH7-Kc-wqh">
+                                <rect key="frame" x="113.33333333333333" y="195" width="166.66666666666669" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="qH7-Kc-wqh" firstAttribute="top" secondItem="bs3-FI-XT3" secondAttribute="bottom" constant="36.329999999999998" id="Xvr-Md-oXb"/>
                             <constraint firstItem="bs3-FI-XT3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bqv-BX-JwF"/>
                             <constraint firstItem="bs3-FI-XT3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="c5q-ad-9u9"/>
+                            <constraint firstItem="qH7-Kc-wqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cqJ-MZ-hl4"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -39,6 +47,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
