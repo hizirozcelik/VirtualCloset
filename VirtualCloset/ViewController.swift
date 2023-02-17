@@ -3,7 +3,7 @@
 //  VirtualCloset
 //
 //  Created by HIZIR OZCELIK on 2023-02-17.
-//  Camera Feature branch
+//  Main branch
 //
 
 import UIKit
